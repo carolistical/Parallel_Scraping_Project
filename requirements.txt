@@ -6,4 +6,4 @@ plotly
 wordcloud
 matplotlib
 numpy
-opencv-python
+opencv-python-headless
