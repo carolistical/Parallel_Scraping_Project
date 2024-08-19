@@ -1,0 +1,9 @@
+beautifulsoup4
+pandas
+selenium
+streamlit
+plotly
+wordcloud
+matplotlib
+numpy
+opencv-python
