@@ -288,7 +288,7 @@ def main():
                 mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
             )
 
-            image = cv2.imread('/Users/carolraydan/Desktop/1.jpg')
+            image = cv2.imread('images/1.JPG')
             
             image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
