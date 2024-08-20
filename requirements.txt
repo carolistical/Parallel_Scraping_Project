@@ -8,4 +8,4 @@ matplotlib
 numpy
 opencv-python-headless
 openpyxl
-webdriver-manager
+selenium-wire
