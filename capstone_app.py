@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from selenium import webdriver
 from seleniumwire import webdriver
+
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -35,7 +36,7 @@ def init_driver():
     options.add_argument('--window-size=1920x1080')
     
     
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     return driver
 
 # Function to normalize strings
