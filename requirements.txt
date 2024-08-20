@@ -8,6 +8,3 @@ matplotlib
 numpy
 opencv-python-headless
 openpyxl
-selenium-wire
-blinker
-mitmproxy
